@@ -1,2 +1,8 @@
 # ignore node packages
 node_modules
+# ignore configjs
+config.js
+# ignore exampljs
+example.js
+# ignore server
+server.js
