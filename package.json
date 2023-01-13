@@ -1,0 +1,24 @@
+{
+  "name": "chat-gpt-ai-with-node",
+  "version": "1.0.0",
+  "description": "How to run chatGPT locally using node.js back-end server",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galalkoro98/chat-GPT-AI-with-node-js.git"
+  },
+  "author": "Galal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galalkoro98/chat-GPT-AI-with-node-js/issues"
+  },
+  "homepage": "https://github.com/galalkoro98/chat-GPT-AI-with-node-js#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "openai": "^3.1.0"
+  }
+}
