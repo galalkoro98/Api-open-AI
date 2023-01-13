@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>open-ai</title>
+    <meta title="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/style.css">
+    <title>simple chatGPT AI</title>
 </head>
+
 <body>
-
-    <div id="root"></div>
-
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/universal-sentence-encoder"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/universal-sentence-encoder"></script>
-
-
-
-
-
-
-
-
-
-
-    <script src=""></script>
-    
+    <div class="container">
+        <div class="chat-container">
+            <div class="chat-header">
+                <h1>Chat with GPT AI</h1>
+            </div>
+            <div class="chat-box">
+                <div class="chat-out">
+                    <div class="chat-in">
+                        <p>Hi, I am GPT AI</p>
+                    </div>
+                </div>
+            </div>
+            <div class="chat-form">
+                <form id="search-form">
+                    <input type="text" id="search-input" placeholder="type and search to get info">
+                    <input type="submit" value="Search" id="search-submit">
+                </form>
+            </div>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script type="module" src="./src/init.js" defer></script>
 </body>
 </html>
