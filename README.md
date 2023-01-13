@@ -26,6 +26,7 @@ openai.completions
   });
   </code>
 
+- here is need for back-end node js serve
 - Replace the `YOUR_API_KEY` with your own **OpenAI** API key, and run the script by executing node script.js in terminal.
 - This script will print out the capital of France. you can use this script in your `node.js` server and route it to an endpoint of your choice.
 - You can use web framework like `expressJS` to create RESTful endpoints and use these endpoints to post the data to your **GPT-3** script. And return the response to your frontend.
